@@ -1,0 +1,7 @@
+<svg width="220" height="56" viewBox="0 0 220 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="56" rx="12" fill="#0D1B2A"/>
+  <path d="M28 42c9.4 0 17-7.6 17-17S37.4 8 28 8 11 15.6 11 25s7.6 17 17 17Z" fill="#2EC4B6"/>
+  <path d="M28 16v18" stroke="#0D1B2A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M20 26h16" stroke="#0D1B2A" stroke-width="4" stroke-linecap="round"/>
+  <text x="60" y="36" fill="#F7F7F2" font-family="Oswald, Arial" font-size="20" font-weight="600">海岚水泵</text>
+</svg>

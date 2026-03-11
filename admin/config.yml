@@ -1,0 +1,131 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "站点信息"
+    files:
+      - name: "site"
+        label: "公司信息"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - { label: "公司名称", name: "companyName", widget: "string" }
+          - { label: "标语", name: "tagline", widget: "string" }
+          - { label: "首页主标题", name: "heroTitle", widget: "string" }
+          - { label: "首页副标题", name: "heroSubtitle", widget: "text" }
+          - { label: "电话", name: "phone", widget: "string" }
+          - { label: "手机", name: "mobile", widget: "string" }
+          - { label: "邮箱", name: "email", widget: "string" }
+          - { label: "微信", name: "wechat", widget: "string" }
+          - { label: "地址", name: "address", widget: "string" }
+          - { label: "版权", name: "copyright", widget: "string" }
+          - label: "资质"
+            name: "certs"
+            widget: "list"
+          - label: "核心亮点"
+            name: "highlights"
+            widget: "list"
+
+  - name: "products"
+    label: "产品"
+    files:
+      - name: "products"
+        label: "产品列表"
+        file: "content/products.json"
+        format: "json"
+        fields:
+          - label: "产品"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "名称", name: "name", widget: "string" }
+              - { label: "型号", name: "model", widget: "string" }
+              - { label: "简介", name: "summary", widget: "text" }
+              - { label: "流量", name: "flow", widget: "string" }
+              - { label: "扬程", name: "head", widget: "string" }
+              - { label: "功率", name: "power", widget: "string" }
+              - { label: "场景", name: "scene", widget: "string" }
+              - { label: "图片", name: "image", widget: "image" }
+
+  - name: "solutions"
+    label: "解决方案"
+    files:
+      - name: "solutions"
+        label: "方案列表"
+        file: "content/solutions.json"
+        format: "json"
+        fields:
+          - label: "方案"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "标题", name: "title", widget: "string" }
+              - { label: "简介", name: "summary", widget: "text" }
+              - { label: "推荐产品", name: "recommended", widget: "string" }
+              - label: "特点"
+                name: "features"
+                widget: "list"
+              - { label: "图片", name: "image", widget: "image" }
+
+  - name: "cases"
+    label: "案例"
+    files:
+      - name: "cases"
+        label: "案例列表"
+        file: "content/cases.json"
+        format: "json"
+        fields:
+          - label: "案例"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "名称", name: "name", widget: "string" }
+              - { label: "简介", name: "summary", widget: "text" }
+              - { label: "成果", name: "result", widget: "string" }
+              - { label: "图片", name: "image", widget: "image" }
+
+  - name: "news"
+    label: "新闻"
+    files:
+      - name: "news"
+        label: "新闻列表"
+        file: "content/news.json"
+        format: "json"
+        fields:
+          - label: "新闻"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "标题", name: "title", widget: "string" }
+              - { label: "日期", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+              - { label: "摘要", name: "summary", widget: "text" }
+              - { label: "正文", name: "content", widget: "text" }
+              - { label: "封面", name: "cover", widget: "image" }
+              - label: "标签"
+                name: "tags"
+                widget: "list"
+
+  - name: "videos"
+    label: "视频"
+    files:
+      - name: "videos"
+        label: "视频列表"
+        file: "content/videos.json"
+        format: "json"
+        fields:
+          - label: "视频"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "标题", name: "title", widget: "string" }
+              - { label: "日期", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+              - { label: "摘要", name: "summary", widget: "text" }
+              - { label: "视频链接(嵌入)", name: "embed", widget: "string" }
+              - { label: "封面", name: "cover", widget: "image" }

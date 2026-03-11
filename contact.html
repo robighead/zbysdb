@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>联系我们 - 海岚水泵</title>
+    <meta name="description" content="获取水泵选型支持与项目报价。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="contact">
+    <div class="bg-grid"></div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/index.html">
+          <img src="/assets/logo.svg" alt="海岚水泵" />
+        </a>
+        <nav class="nav">
+          <a href="/index.html" class="nav-link">首页</a>
+          <a href="/products.html" class="nav-link">产品中心</a>
+          <a href="/solutions.html" class="nav-link">应用方案</a>
+          <a href="/cases.html" class="nav-link">案例</a>
+          <a href="/news.html" class="nav-link">新闻</a>
+          <a href="/videos.html" class="nav-link">视频</a>
+          <a href="/about.html" class="nav-link">关于我们</a>
+          <a href="/contact.html" class="nav-link nav-cta">获取报价</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="打开导航">☰</button>
+      </div>
+    </header>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>联系我们</h1>
+        <p>提供工况参数即可获取快速报价与选型建议。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2>联系方式</h2>
+          <p>电话：<span data-site="phone">400-800-1234</span></p>
+          <p>手机：<span data-site="mobile">138-0000-0000</span></p>
+          <p>邮箱：<span data-site="email">sales@hailanpump.com</span></p>
+          <p>微信：<span data-site="wechat">HailanPump</span></p>
+          <p>地址：<span data-site="address">广东省佛山市南海区泵业大道88号</span></p>
+          <div class="contact-card">
+            <h3>快速响应</h3>
+            <p>提交信息后 2 小时内回访，提供选型与报价。</p>
+          </div>
+        </div>
+        <div class="form-card">
+          <h2>提交工况参数</h2>
+          <form class="contact-form" action="mailto:sales@hailanpump.com" method="post" enctype="text/plain">
+            <label>
+              公司名称
+              <input type="text" name="company" placeholder="请输入公司名称" required />
+            </label>
+            <label>
+              联系人
+              <input type="text" name="name" placeholder="请输入联系人" required />
+            </label>
+            <label>
+              电话 / 微信
+              <input type="text" name="contact" placeholder="请输入联系方式" required />
+            </label>
+            <label>
+              流量 (m³/h)
+              <input type="text" name="flow" placeholder="例如 50" />
+            </label>
+            <label>
+              扬程 (m)
+              <input type="text" name="head" placeholder="例如 60" />
+            </label>
+            <label>
+              介质与工况
+              <textarea name="medium" rows="4" placeholder="介质、温度、安装方式等"></textarea>
+            </label>
+            <button type="submit" class="btn-primary">发送需求</button>
+            <p class="tiny-tip">注：提交后会打开邮箱客户端发送，请确认邮箱已登录。</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img class="footer-logo" src="/assets/logo.svg" alt="海岚水泵" />
+          <p data-site="tagline">专业水泵制造与系统解决方案</p>
+          <p class="footer-contact">服务热线：<span data-site="phone">400-800-1234</span></p>
+        </div>
+        <div>
+          <h4>产品与方案</h4>
+          <a href="/products.html">产品中心</a>
+          <a href="/solutions.html">应用方案</a>
+          <a href="/cases.html">工程案例</a>
+        </div>
+        <div>
+          <h4>支持与资源</h4>
+          <a href="/news.html">新闻资讯</a>
+          <a href="/videos.html">视频中心</a>
+          <a href="/contact.html">技术支持</a>
+        </div>
+        <div>
+          <h4>联系我们</h4>
+          <p data-site="address">广东省佛山市南海区泵业大道88号</p>
+          <p>邮箱：<span data-site="email">sales@hailanpump.com</span></p>
+          <p>微信：<span data-site="wechat">HailanPump</span></p>
+        </div>
+      </div>
+      <div class="footer-bottom" data-site="copyright">© 2026 海岚水泵制造有限公司</div>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "title": "工厂产线与质检流程",
+      "date": "2026-02-10",
+      "summary": "展示铸造、加工与性能测试全过程。",
+      "embed": "https://www.youtube.com/embed/aqz-KE-bpKQ",
+      "cover": "/assets/hero-pump.svg"
+    },
+    {
+      "title": "泵组安装与调试演示",
+      "date": "2026-01-05",
+      "summary": "标准化安装流程与运维要点。",
+      "embed": "https://www.youtube.com/embed/2Vv-BfVoq4g",
+      "cover": "/assets/hero-pump.svg"
+    }
+  ]
+}

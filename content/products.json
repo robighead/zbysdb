@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "name": "卧式多级离心泵",
+      "model": "HL-DM",
+      "summary": "高扬程、运行稳定，适用于高层供水与工业增压。",
+      "flow": "2-180 m³/h",
+      "head": "20-260 m",
+      "power": "1.5-110 kW",
+      "scene": "建筑增压 / 工业循环",
+      "image": "/assets/hero-pump.svg"
+    },
+    {
+      "name": "立式管道泵",
+      "model": "HL-ISG",
+      "summary": "占地小、维护方便，适合暖通和市政管网。",
+      "flow": "1-1200 m³/h",
+      "head": "10-160 m",
+      "power": "0.75-200 kW",
+      "scene": "暖通空调 / 市政供水",
+      "image": "/assets/hero-pump.svg"
+    },
+    {
+      "name": "潜水排污泵",
+      "model": "HL-WQ",
+      "summary": "通过能力强，适应含固液体输送。",
+      "flow": "5-1200 m³/h",
+      "head": "8-60 m",
+      "power": "1.1-75 kW",
+      "scene": "污水处理 / 防洪排涝",
+      "image": "/assets/hero-pump.svg"
+    },
+    {
+      "name": "不锈钢立式多级泵",
+      "model": "HL-CDL",
+      "summary": "食品级材质，适合纯净水系统与工艺用水。",
+      "flow": "2-120 m³/h",
+      "head": "15-200 m",
+      "power": "1.1-55 kW",
+      "scene": "净水系统 / 工艺用水",
+      "image": "/assets/hero-pump.svg"
+    }
+  ]
+}

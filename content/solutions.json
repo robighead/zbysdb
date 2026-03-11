@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "title": "市政供水与增压",
+      "summary": "为城市管网、二次供水提供稳定压力与节能控制方案。",
+      "features": ["恒压变频控制", "低噪运行", "模块化泵房"],
+      "recommended": "HL-ISG、HL-DM 系列",
+      "image": "/assets/hero-pump.svg"
+    },
+    {
+      "title": "建筑给排水",
+      "summary": "满足高层建筑供水、消防喷淋、地下室排水等场景。",
+      "features": ["智能联控", "应急泵组", "远程监测"],
+      "recommended": "HL-DM、HL-WQ 系列",
+      "image": "/assets/hero-pump.svg"
+    },
+    {
+      "title": "工业循环与冷却",
+      "summary": "适用于工厂冷却循环、工艺液体输送与系统增压。",
+      "features": ["耐腐蚀选配", "高效叶轮", "稳定连续运行"],
+      "recommended": "HL-CDL、HL-ISG 系列",
+      "image": "/assets/hero-pump.svg"
+    }
+  ]
+}

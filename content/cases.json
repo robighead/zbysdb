@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "华南某市二次供水泵房",
+      "summary": "完成 6 套变频供水系统，日供水 2 万吨。",
+      "result": "节能 18%，稳定运行 3 年以上",
+      "image": "/assets/hero-pump.svg"
+    },
+    {
+      "name": "大型工业园冷却循环系统",
+      "summary": "为 12 栋厂房提供循环冷却水系统升级。",
+      "result": "维护成本降低 25%",
+      "image": "/assets/hero-pump.svg"
+    },
+    {
+      "name": "市政污水提升站",
+      "summary": "部署潜水排污泵 14 台，提升能力 1200 m³/h。",
+      "result": "连续运行 48 个月无重大故障",
+      "image": "/assets/hero-pump.svg"
+    }
+  ]
+}

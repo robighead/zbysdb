@@ -20,6 +20,8 @@ collections:
           - { label: "标语", name: "tagline", widget: "string" }
           - { label: "首页主标题", name: "heroTitle", widget: "string" }
           - { label: "首页副标题", name: "heroSubtitle", widget: "text" }
+          - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "首页大图", name: "heroImage", widget: "image" }
           - { label: "电话", name: "phone", widget: "string" }
           - { label: "手机", name: "mobile", widget: "string" }
           - { label: "邮箱", name: "email", widget: "string" }

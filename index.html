@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>海岚水泵制造有限公司</title>
+    <title>淄博颜山电泵实业有限公司</title>
     <meta name="description" content="水泵生产企业官网，提供离心泵、潜水泵、管道泵等产品与系统解决方案。" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,17 +16,14 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="logo" href="/index.html">
-          <img src="/assets/logo.svg" alt="海岚水泵" />
+          <img src="/assets/logo.svg" alt="颜山电泵" data-site-logo />
         </a>
         <nav class="nav">
-          <a href="/index.html" class="nav-link">首页</a>
-          <a href="/products.html" class="nav-link">产品中心</a>
-          <a href="/solutions.html" class="nav-link">应用方案</a>
-          <a href="/cases.html" class="nav-link">案例</a>
-          <a href="/news.html" class="nav-link">新闻</a>
-          <a href="/videos.html" class="nav-link">视频</a>
-          <a href="/about.html" class="nav-link">关于我们</a>
-          <a href="/contact.html" class="nav-link nav-cta">获取报价</a>
+          <a href="#business" class="nav-link">业务领域</a>
+          <a href="#products" class="nav-link">产品板块</a>
+          <a href="#service" class="nav-link">维修服务</a>
+          <a href="#join" class="nav-link">加入我们</a>
+          <a href="#news" class="nav-link nav-cta">新闻中心</a>
         </nav>
         <button class="nav-toggle" id="navToggle" aria-label="打开导航">☰</button>
       </div>
@@ -47,7 +44,7 @@
           <div class="hero-highlights" id="heroHighlights"></div>
         </div>
         <div class="hero-media">
-          <img src="/assets/hero-pump.svg" alt="水泵设备" />
+          <div class="hero-visual" data-site-hero></div>
           <div class="hero-badge">
             <p>出厂全检</p>
             <strong>72小时连续运行测试</strong>
@@ -56,31 +53,31 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="products">
       <div class="container">
         <div class="section-title">
-          <h2>主力产品</h2>
-          <p>覆盖供水、排污、循环、增压等常见工况。</p>
+          <h2>产品板块</h2>
+          <p>覆盖供水、排污、循环、增压等核心应用场景。</p>
         </div>
         <div class="card-grid" id="productGrid"></div>
       </div>
     </section>
 
-    <section class="section alt">
+    <section class="section alt" id="business">
       <div class="container">
         <div class="section-title">
-          <h2>应用方案</h2>
-          <p>按行业场景提供系统化选型与配套。</p>
+          <h2>业务领域</h2>
+          <p>面向市政、建筑、工业等行业提供系统化泵房解决方案。</p>
         </div>
         <div class="solution-grid" id="solutionGrid"></div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="service">
       <div class="container">
         <div class="section-title">
-          <h2>工程案例</h2>
-          <p>真实项目验证稳定运行与节能效果。</p>
+          <h2>维修服务</h2>
+          <p>快速响应、备件充足、工程师驻场支持。</p>
         </div>
         <div class="case-grid" id="caseGrid"></div>
       </div>
@@ -112,7 +109,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="news">
       <div class="container">
         <div class="section-title">
           <h2>最新动态</h2>
@@ -125,20 +122,20 @@
       </div>
     </section>
 
-    <section class="cta">
+    <section class="cta" id="join">
       <div class="container cta-inner">
         <div>
-          <h2>获取选型建议与报价</h2>
-          <p>提交工况参数，我们提供 1 对 1 选型支持。</p>
+          <h2>加入我们</h2>
+          <p>欢迎技术、销售与服务工程师加入，携手打造行业标杆。</p>
         </div>
-        <a class="btn-primary" href="/contact.html">立即咨询</a>
+        <a class="btn-primary" href="mailto:sales@hailanpump.com">投递简历</a>
       </div>
     </section>
 
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
-          <img class="footer-logo" src="/assets/logo.svg" alt="海岚水泵" />
+          <img class="footer-logo" src="/assets/logo.svg" alt="颜山电泵" data-site-logo />
           <p data-site="tagline">专业水泵制造与系统解决方案</p>
           <p class="footer-contact">服务热线：<span data-site="phone">400-800-1234</span></p>
         </div>
@@ -161,7 +158,7 @@
           <p>微信：<span data-site="wechat">HailanPump</span></p>
         </div>
       </div>
-      <div class="footer-bottom" data-site="copyright">© 2026 海岚水泵制造有限公司</div>
+      <div class="footer-bottom" data-site="copyright">© 2026 淄博颜山电泵实业有限公司</div>
     </footer>
 
     <script src="/app.js"></script>

@@ -25,6 +25,18 @@ const fillSiteInfo = async () => {
       }
     });
 
+    document.querySelectorAll("[data-site-logo]").forEach((el) => {
+      if (site.logo) {
+        el.setAttribute("src", site.logo);
+      }
+    });
+
+    document.querySelectorAll("[data-site-hero]").forEach((el) => {
+      if (site.heroImage) {
+        el.style.backgroundImage = `url(${site.heroImage})`;
+      }
+    });
+
     const highlightContainer = document.getElementById("heroHighlights");
     if (highlightContainer && Array.isArray(site.highlights)) {
       highlightContainer.innerHTML = site.highlights
@@ -165,11 +177,10 @@ const renderVideos = async () => {
 };
 
 const setActiveNav = () => {
+  const hash = window.location.hash;
   document.querySelectorAll(".nav-link").forEach((link) => {
-    if (link.getAttribute("href")?.includes(`${page}.html`)) {
-      link.classList.add("active");
-    }
-    if (page === "home" && link.getAttribute("href") === "/index.html") {
+    const href = link.getAttribute("href") || "";
+    if (page === "home" && href.startsWith("#") && href === hash) {
       link.classList.add("active");
     }
   });
